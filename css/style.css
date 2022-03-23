@@ -1,0 +1,253 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* menu icono */
+.menu-icon{
+   font-size: 30px;
+   margin-right: 20px;
+}
+
+.iconos-nav{
+  display: flex;
+  width: 30%;
+  align-self: center;
+  justify-content: flex-end;
+ 
+}
+
+.shopping{
+   font-size: 28px;
+   margin-right: 20px;
+}
+
+
+/* MENU NAV ESTILOS */
+
+.nav-bar{
+    background-color: #0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    position:absolute;
+    width: 100%;
+    z-index: 30;
+    
+}
+
+
+/* logo */
+.logo{
+  width: 40%;
+  padding-left: 10px;
+  
+}
+
+.logo-text{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  color: #3a3;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px black;
+  border: 1px solid green;
+  border-radius: 20px;
+  width: 70px;
+  
+}
+
+.logo-text b{
+  color: #a33;
+}
+
+/* Menu */
+.menu{
+  position: absolute;
+  background-color:#000;
+  left: 0;
+  height: 700px;
+  width:170px;
+  padding-top: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius:0px 0px 20px 0px;
+  transform: translateX(-200px);
+  transition: transform 0.3s;
+  z-index: 20;
+  
+}
+
+.show{
+    transform: translateX(-20px);
+}
+
+.item-menu{
+  list-style: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.item-menu a:hover{
+  color: darkgray;
+
+}
+
+.item-menu a{
+  text-decoration: none;
+}
+
+.item-desplegable ul li{
+  list-style: none;
+}
+
+.item-desplegable ul{
+  display: none;
+  
+}
+
+.item-desplegable:hover ul{
+    display: block;
+}
+
+a{
+  color: white;
+}
+
+/* CUERPO */
+.sec{
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.articulo1{
+  margin-top: 0;
+  height: 525px;
+  background-color: balck;
+  
+}
+
+.carrusel{
+  z-index: 10;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.item-menu{
+
+}
+
+.fondo-1{
+  height: 580px;
+  width: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  animation-name: slider;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+
+}
+
+.txt-referencia{
+  background-color: #0005;
+  margin: 50% 2%;
+  padding-top: 5px;
+  text-align: center;
+  height: 30%;
+  border-radius: 15px;
+
+}
+
+.txt-referencia h1{
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+  color: #fff;
+}
+
+.txt-referencia p{
+  
+  font-size: 20px;
+  background-color: bisque;
+  margin: 0px 5px;
+}
+
+.txt-referencia p a{
+  text-decoration: none;
+  color: #000;
+}
+
+@keyframes slider{
+  0%,100%{
+      background-image: url(https://slowers-shoes.com/blog/wp-content/uploads/2020/01/moda-ecologica-684x1024.jpg);
+  }
+  
+  50%{
+     background-image: url(https://media.gq.com.mx/photos/5fb93db1c4b8638bc2fa25dc/master/w_1600%2Cc_limit/Tendencias%25202021%25202.jpg);
+  }
+
+  75%{
+    background-image: url(https://www.instyle.es/medio/2019/12/16/tendencias-de-moda-2020-in-color-rosa_8109f262_900x1350.jpg);
+  }
+
+}
+.fondo{
+  position: absolute;
+}
+
+.articulo2{
+  margin-top: 10%;
+  height: 780px;
+  
+
+}
+
+.img-referecia2{
+       background-image: url(https://img.freepik.com/foto-gratis/retrato-dos-hermosas-mujeres-sonrientes-sexy-trajes-bano-verano-blanco-negro-modelos-calientes-moda-divirtiendose-chicas-aisladas-azul-jugando-pelo-gafas-sol_158538-6253.jpg);
+       height: 100%;
+       background-position: center top;
+       background-repeat: no-repeat;
+      }
+
+.txt-referencia2{
+  position:absolute;
+  margin: 70% 0% 5% 5%;
+  width: 90%;
+  text-align: center;
+}
+
+.txt-referencia2 h1{
+  background-color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.txt-referencia2 p a{
+  text-decoration: none;
+  color: rgb(253, 253, 255);
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+/* MEDIAS */
+@media screen and (max-width:350px){
+
+   .articulo2{
+     margin-top: -30%;
+   }
+  
+}
