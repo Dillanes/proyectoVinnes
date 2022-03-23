@@ -126,28 +126,15 @@ a{
 /* CUERPO */
 .sec{
   width: 100%;
-  margin: auto;
-  padding: 0;
+  
 }
 
 .articulo1{
   margin-top: 0;
   height: 525px;
-  background-color: balck;
   
 }
 
-.carrusel{
-  z-index: 10;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
-}
-
-.item-menu{
-
-}
 
 .fondo-1{
   height: 580px;
@@ -159,8 +146,6 @@ a{
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-
-
 }
 
 .txt-referencia{
