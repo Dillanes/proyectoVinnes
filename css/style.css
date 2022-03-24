@@ -126,6 +126,8 @@ a{
 /* CUERPO */
 .sec{
   width: 100%;
+  position: relative;
+  padding: 0;
   
 }
 
@@ -150,12 +152,16 @@ a{
 
 .txt-referencia{
   background-color: #0005;
-  margin: 50% 2%;
   padding-top: 5px;
   text-align: center;
   height: 30%;
+  width: 80%;
   border-radius: 15px;
-
+ width: 80%;
+ margin: auto;
+  position: relative;
+  bottom: 40%;
+  top: 40%;
 }
 
 .txt-referencia h1{
@@ -164,8 +170,7 @@ a{
   color: #fff;
 }
 
-.txt-referencia p{
-  
+.txt-referencia p{  
   font-size: 20px;
   background-color: bisque;
   margin: 0px 5px;
@@ -190,9 +195,7 @@ a{
   }
 
 }
-.fondo{
-  position: absolute;
-}
+
 
 .articulo2{
   margin-top: 10%;
